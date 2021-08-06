@@ -25,6 +25,7 @@ const Counter = () => {
             <div>{counter.value}</div>
             <Button value='+' handleClick={increment}/>
             <Button value='-' handleClick={decrement}/>
+            <button type="button" className="btn btn-primary">test</button>
             {counter.isShow ? <div>Muncul</div> : null}
             {counter.isShow && <div>Muncul</div> }
             {/*<button onClick={decrement}>-</button>*/}

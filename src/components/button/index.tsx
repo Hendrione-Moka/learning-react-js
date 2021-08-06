@@ -5,6 +5,6 @@ type ButtonProps = {
     handleClick: () => void;
 };
 
-const Button: React.FC<ButtonProps> = (props) => <button onClick={props.handleClick}>{props.value}</button>;
+const Button: React.FC<ButtonProps> = (props) => <button type="button" className="btn btn-primary" onClick={props.handleClick}>{props.value}</button>;
 
 export default Button;
